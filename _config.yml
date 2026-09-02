@@ -1,0 +1,76 @@
+# Site settings
+locale: "en-GB"
+title: "Namibia–UK Biofertiliser Knowledge Exchange 2026"
+title_separator: "|"
+masthead_title: "Namibia–UK Biofertiliser Exchange"
+name: "Imperial–Namibia Research Partnership"
+description: >-
+  A five-day knowledge exchange in Windhoek connecting microbiome engineering,
+  arid-zone agricultural science and bioinoculant practice across Namibia and the UK.
+url: "https://namibia-microbiome.github.io"
+baseurl: ""
+repository: "namibia-microbiome/namibia-microbiome.github.io"
+timezone: "Africa/Windhoek"
+
+# Reference-site framework: Minimal Mistakes for Jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.16.4"
+minimal_mistakes_skin: "default"
+
+# Social and search metadata
+og_image: "/assets/images/namibia-hero.jpg"
+logo: ""
+breadcrumbs: true
+search: true
+search_full_content: true
+words_per_minute: 200
+
+social:
+  type: "Organization"
+  name: "Imperial–Namibia Research Partnership"
+  links: []
+
+atom_feed:
+  hide: true
+
+footer:
+  links: []
+
+# Build settings
+include:
+  - _pages
+exclude:
+  - "Africa Seed Fund"
+  - "Africa Seed Fund2"
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - assets/images/README.md
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false

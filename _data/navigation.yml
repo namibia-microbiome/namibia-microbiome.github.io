@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Travel information"
+    url: /travel/
+  - title: "Programme"
+    url: /programme/
+  - title: "People"
+    url: /people/
+  - title: "Materials"
+    url: /resources/
