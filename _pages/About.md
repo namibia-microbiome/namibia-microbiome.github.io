@@ -43,5 +43,5 @@ applications.
 
 ## Supporting projects
 
-The programme builds on [DigiMIC](https://digimic.org/) and
+The programme builds on [DigiMic](https://digimic.org/) and
 [Microbiome Revolution](https://microbiomerevolution.org/).
