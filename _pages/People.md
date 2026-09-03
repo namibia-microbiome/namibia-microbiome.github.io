@@ -15,7 +15,6 @@ UNAM and CABI in developing this workshop.
 | **Dr Jean Damascène Uzabakiriho** | Senior Lecturer, Biological Sciences | University of Namibia |
 | **Professor Samraat Pawar** | Professor of Theoretical Ecology | Imperial College London |
 | **Dr Peter Graystock** | Assistant Professor in Human and Animal Health | Imperial College London |
-| **Dr Emma Ransome** | Associate Professor | Imperial College London |
 | **Dr Paidamoyo Mataranyika** | Postdoctoral Research Associate | Imperial College London |
 | **Dr Yan Zhu** | Postdoctoral Research Associate | Imperial College London |
 | **Dr Hester J van Schalkwyk** | Postdoctoral Research Associate | Imperial College London |
