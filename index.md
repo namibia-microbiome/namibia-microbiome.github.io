@@ -45,7 +45,10 @@ Technology, the University of Namibia and CABI. It will combine research
 exchange, practical training and collaboration in agricultural microbiome
 science.
 
-Further venue, registration and participant information will be added when confirmed.
+Registration is now open. Visit the [registration page](/registration/) for
+key information and a link to the online registration form.
+
+[Register for the workshop](/registration/){: .btn .btn--primary }
 
 {% include feature_row %}
 
