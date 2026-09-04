@@ -10,8 +10,7 @@ layout: single
   <h2 id="registration-heading">Join us in Windhoek</h2>
   <p>
     Register your interest in the five-day Namibia–UK Biofertiliser Knowledge
-    Exchange. The online form asks about your institution, research background
-    and experience with R so that the organisers can plan the workshop.
+    Exchange.
   </p>
 
   <dl class="registration-facts">
