@@ -38,18 +38,6 @@ layout: single
   <p class="registration-panel__note">The registration form opens in Google Forms in a new tab.</p>
 </section>
 
-## Before you begin
-
-Please have the following information ready:
-
-- your name, email address, institution and department;
-- your current degree status and research area;
-- whether you will have access to a laptop on which R can be installed; and
-- your current level of experience with R.
-
-Submitting the form registers your interest in the workshop. Please wait for
-confirmation from the organisers before making non-refundable travel or
-accommodation bookings.
 
 ## Questions
 
