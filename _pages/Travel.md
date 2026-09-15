@@ -30,5 +30,8 @@ bookings.
 
 ## Contact
 
-Dr Paidamoyo Mataranyika —
-[p.mataranyika@imperial.ac.uk](mailto:p.mataranyika@imperial.ac.uk)
+Dr Jean Damascene Uzabakiriho —
+[juzabakiriho@unam.na](mailto:juzabakiriho@unam.na)
+
+Prof Percy Chimwamurombe —
+[pchimwa@unam.na](mailto:pchimwa@unam.na)
