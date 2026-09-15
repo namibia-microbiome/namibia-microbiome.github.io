@@ -24,7 +24,7 @@ layout: single
     </div>
     <div>
       <dt>Registration deadline</dt>
-      <dd>26 October 2026</dd>
+      <dd>15 October 2026</dd>
     </div>
   </dl>
 
@@ -38,7 +38,10 @@ layout: single
 </section>
 
 
-## Questions
-
+## Contact
+Dr Jean Damascene Uzabakiriho —
+[juzabakiriho@unam.na](mailto:juzabakiriho@unam.na)
+Prof Percy Chimwamurombe —
+[pchimwa@unam.na](mailto:pchimwa@unam.na)
 Dr Paidamoyo Mataranyika —
 [p.mataranyika@imperial.ac.uk](mailto:p.mataranyika@imperial.ac.uk)
