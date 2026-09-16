@@ -34,4 +34,4 @@ Dr Jean Damascene Uzabakiriho —
 [juzabakiriho@unam.na](mailto:juzabakiriho@unam.na)
 
 Prof Percy Chimwamurombe —
-[pchimwa@unam.na](mailto:pchimwa@unam.na)
+[pchimwamurombe@nust.na](mailto:pchimwamurombe@nust.na)
