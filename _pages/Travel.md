@@ -3,6 +3,7 @@ title: "Travel information"
 excerpt: "Essential travel information for the workshop in Windhoek."
 permalink: /travel/
 layout: single
+classes: compact-hero
 header:
   image: /assets/images/namibia-waterberg.jpg
 ---

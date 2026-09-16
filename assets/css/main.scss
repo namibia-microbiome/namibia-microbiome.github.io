@@ -117,6 +117,31 @@ body {
   padding-bottom: clamp(4rem, 8vw, 7rem);
 }
 
+.compact-hero .page__hero {
+  width: min(calc(100% - 2rem), 1100px);
+  margin: clamp(1rem, 2.5vw, 2rem) auto 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.compact-hero .page__hero-image {
+  width: 100%;
+  height: clamp(230px, 30vw, 390px);
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .compact-hero .page__hero {
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  .compact-hero .page__hero-image {
+    height: 220px;
+  }
+}
+
 .page__hero--overlay .page__title {
   max-width: 950px;
   margin-bottom: 0.3em;

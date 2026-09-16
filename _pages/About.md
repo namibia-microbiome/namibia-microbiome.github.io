@@ -3,6 +3,7 @@ title: "About the workshop"
 excerpt: "Purpose, partnership and long-term vision for the Namibia–UK knowledge exchange."
 permalink: /about/
 layout: single
+classes: compact-hero
 header:
   image: /assets/images/namibia-etosha.jpg
 toc: true
