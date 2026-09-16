@@ -80,10 +80,36 @@ body {
 }
 
 .page__hero--overlay {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: 69vh;
   display: flex;
   align-items: flex-end;
   background-position: center 58%;
+}
+
+.page__hero-video {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 58%;
+  opacity: 0;
+  filter: brightness(0.4);
+  background: url("../images/namibia-hero.jpg") center 58% / cover no-repeat;
+  pointer-events: none;
+}
+
+.page__hero--overlay.has-background-video .page__hero-video {
+  opacity: 1;
+}
+
+.page__hero--overlay.has-background-video .wrapper {
+  position: relative;
+  z-index: 1;
 }
 
 .page__hero--overlay .wrapper {

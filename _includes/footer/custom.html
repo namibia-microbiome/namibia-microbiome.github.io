@@ -10,3 +10,48 @@
   <span aria-hidden="true">·</span>
   <a href="https://microbiomerevolution.org/">Microbiome Revolution</a>
 </div>
+
+{% if page.url == '/' %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var mobileLayout = window.matchMedia("(max-width: 768px)").matches;
+    var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    var dataSaver = connection && (
+      connection.saveData ||
+      connection.effectiveType === "slow-2g" ||
+      connection.effectiveType === "2g"
+    );
+    var hero = document.querySelector(".page__hero--overlay");
+
+    if (!hero || reducedMotion || mobileLayout || dataSaver) return;
+
+    var video = document.createElement("video");
+    video.className = "page__hero-video";
+    video.autoplay = true;
+    video.defaultMuted = true;
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.preload = "metadata";
+    video.poster = "{{ '/assets/images/namibia-hero.jpg' | relative_url }}";
+    video.setAttribute("aria-hidden", "true");
+    video.setAttribute("tabindex", "-1");
+
+    var source = document.createElement("source");
+    source.src = "{{ '/assets/video/waterfall_loop.mp4' | relative_url }}";
+    source.type = "video/mp4";
+    video.appendChild(source);
+
+    video.addEventListener("canplay", function () {
+      hero.classList.add("has-background-video");
+      video.play().catch(function () {
+        video.remove();
+        hero.classList.remove("has-background-video");
+      });
+    }, { once: true });
+
+    hero.insertBefore(video, hero.firstChild);
+  });
+</script>
+{% endif %}
