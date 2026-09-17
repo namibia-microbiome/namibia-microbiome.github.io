@@ -15,7 +15,6 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var mobileLayout = window.matchMedia("(max-width: 768px)").matches;
     var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
     var dataSaver = connection && (
       connection.saveData ||
@@ -24,7 +23,7 @@
     );
     var hero = document.querySelector(".page__hero--overlay");
 
-    if (!hero || reducedMotion || mobileLayout || dataSaver) return;
+    if (!hero || reducedMotion || dataSaver) return;
 
     var video = document.createElement("video");
     video.className = "page__hero-video";
