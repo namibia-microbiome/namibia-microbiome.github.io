@@ -547,6 +547,113 @@ body {
   font-size: 0.82rem;
 }
 
+.poster-guidance {
+  margin: 0 0 3rem;
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: #fff;
+  box-shadow: 0 18px 44px rgba(58, 45, 27, 0.06);
+}
+
+.poster-guidance__eyebrow,
+.poster-format__label {
+  color: var(--clay-dark);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.poster-guidance h2 {
+  margin: 0.45rem 0 0.45rem;
+  padding: 0;
+  border: 0;
+}
+
+.poster-guidance__lead {
+  max-width: 48rem;
+  margin: 0 0 1.6rem;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.poster-formats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.25rem;
+}
+
+.poster-format {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: var(--sand-light);
+}
+
+.poster-format--preferred {
+  border-top: 4px solid var(--teal);
+}
+
+.poster-format h3 {
+  margin: 0.35rem 0 0.3rem;
+  color: var(--ink);
+  font-size: 1.25rem;
+}
+
+.poster-format p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.poster-printing-note {
+  margin: 0 0 2rem;
+  padding: 1rem 1.1rem;
+  border-left: 4px solid var(--desert);
+  border-radius: 0.55rem;
+  background: var(--sand);
+}
+
+.poster-guidance > h3 {
+  margin-top: 0;
+}
+
+.poster-tips {
+  margin: 1.1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.poster-tips li {
+  position: relative;
+  margin: 0;
+  padding: 0.85rem 0 0.85rem 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.poster-tips li::before {
+  content: "✓";
+  position: absolute;
+  top: 0.85rem;
+  left: 0.25rem;
+  color: var(--teal);
+  font-weight: 900;
+}
+
+.poster-tips li:last-child {
+  border-bottom: 0;
+}
+
+.poster-guidance__source {
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
 .page__content table {
   display: table;
   width: 100%;
@@ -622,6 +729,10 @@ body {
   }
 
   .registration-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .poster-formats {
     grid-template-columns: 1fr;
   }
 
