@@ -1,7 +1,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Travel information"
+  - title: "Travel"
     url: /travel/
   - title: "Programme"
     url: /programme/
