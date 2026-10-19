@@ -12,12 +12,12 @@ any changes will be shared with participants.
 
 ## Tuesday 27 October
 
-**Venue:** UNAM Main Campus Library (room to be confirmed)
+**Venue:** UNAM Main Campus Library Auditorium
 
 | Time | Session | Speaker or facilitator | Parallel session |
 |:--|:--|:--|:--|
 | 08:00 | Welcome coffee, networking and poster set-up | — | — |
-| 08:30 | Welcome | Jean Damascene Uzabakiriho and Connie Tjiurutue Muvari | — |
+| 08:30 | Welcome | Jean Damascene Uzabakiriho and Veiko Uahengo | — |
 | 08:45 | Research in Namibia | Percy Chimwamurombe | — |
 | 09:00 | Research in the UK: holobiont research | Thomas Bell and Sanjana Bushra | — |
 | 09:15 | Introduction to CABI | Chapwa Kasoma | — |
@@ -26,12 +26,12 @@ any changes will be shared with participants.
 | 10:00 | Break | — | — |
 | 11:00 | Poster session | Participants | — |
 | 13:00 | Lunch | — | — |
-| 14:00 | Computer set-up | Yan Zhu | Research discussion for PIs |
+| 14:00 | Computer set-up | Yan Zhu | Research discussion (PIs only) |
 | 16:00 | Close | — | — |
 
 ## Wednesday 28 October
 
-**Venue:** UNAM Main Campus Library (room to be confirmed)
+**Venue:** UNAM Main Campus Library Auditorium
 
 | Time | Session | Speaker or facilitator | Parallel session |
 |:--|:--|:--|:--|
@@ -41,9 +41,9 @@ any changes will be shared with participants.
 | 10:10 | Introduction to microbiome research | Hester van Schalkwyk | — |
 | 10:30 | Introduction to microbiome research | Yan Zhu | — |
 | 10:45 | Break | — | — |
-| 11:30 | Introduction to MulQuaBio: R | Samraat Pawar | — |
+| 11:30 | Introduction to data management using R | Samraat Pawar | — |
 | 13:00 | Lunch | — | — |
-| 14:00 | Data management and processing | Samraat Pawar and Yan Zhu | — |
+| 14:00 | Data processing in R | Samraat Pawar and Yan Zhu | — |
 | 16:00 | Field preparation | Hester van Schalkwyk and Paidamoyo Mataranyika | — |
 
 ## Thursday 29 October
@@ -59,7 +59,7 @@ any changes will be shared with participants.
 
 ## Friday 30 October
 
-**Venue:** UNAM Main Campus Library (room to be confirmed)
+**Venue:** UNAM Main Campus Library Auditorium
 
 | Time | Session | Speaker or facilitator | Parallel session |
 |:--|:--|:--|:--|
@@ -68,7 +68,7 @@ any changes will be shared with participants.
 | 10:30 | Break | — | — |
 | 10:45 | Microbiome analysis practical: visualisation | Yan Zhu and Hester van Schalkwyk | — |
 | 13:00 | Lunch | — | — |
-| 14:00 | Choosing a journal and planning the next steps for your research | Hester van Schalkwyk and Paidamoyo Mataranyika | — |
+| 14:00 | Data visualisation: group activity and mini-presentations | Participants | — |
 | 14:30 | PI feedback to the wider group | Thomas Bell | — |
 | 15:00 | Closing remarks | Percy Chimwamurombe | — |
 | 15:15 | Participant survey | — | — |
