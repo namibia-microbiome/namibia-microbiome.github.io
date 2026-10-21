@@ -24,7 +24,7 @@ any changes will be shared with participants.
 | 09:30 | Research in the UK | Peter Graystock | — |
 | 09:45 | Research in Namibia | Jean Damascene Uzabakiriho | — |
 | 10:00 | Break | — | — |
-| 11:00 | Poster session | Participants | — |
+| 11:00 | Poster session — **[Download the Book of Abstracts HERE](/assets/downloads/book-of-abstracts.pdf){: download="book-of-abstracts.pdf" }** | Participants | — |
 | 13:00 | Lunch | — | — |
 | 14:00 | Computer set-up | Yan Zhu | Research discussion (PIs only) |
 | 16:00 | Close | — | — |
