@@ -1,36 +1,25 @@
 ---
 title: "Workshop materials"
-excerpt: "Preparation guidance and teaching materials for the knowledge exchange."
+excerpt: "R and microbiome analysis materials for the knowledge exchange."
 permalink: /resources/
 layout: single
 ---
 
-The training materials below provide short, practical introductions to R and
-reproducible data analysis. Select a topic to open the corresponding tutorial.
-
 ## Training materials
 
-### [1. R basics](/materials/r-basics/)
+### 1. R basics
 
-An introductory guide to working in R: scripts and the console, objects,
-vectors, data frames, functions, importing CSV files and handling missing
-values.
+Use the [R introduction guide](https://docs.google.com/document/d/1FPBJ6p946MFAMDNWkASRLofh_lEbVb12/edit?usp=sharing&ouid=103851654386762616794&rtpof=true&sd=true) for RStudio, scripts, data structures, importing data and troubleshooting.
 
-[Open the R basics tutorial](/materials/r-basics/){: .btn .btn--primary }
+### 2. Microbiome analysis in R
 
-### [2. Data processing and visualisation in R](/materials/data-processing-visualisation/)
+Work through [Exploring a soil microbiome in R](https://mulquabio.github.io/MQB/notebooks/microbiome-analysis.html) during Wednesday's and Friday's sessions. The practical includes the data, metadata and links to supporting R material.
 
-A short workflow for inspecting, cleaning and summarising data, followed by a
-simple introduction to plotting with `ggplot2`. The tutorial also links to the
-full MulQuaBio chapter for further study.
+See the [workshop route through the practical](/materials/data-processing-visualisation/) for the session activities, optional preparation and group presentation guidance.
 
-[Open the data processing and visualisation tutorial](/materials/data-processing-visualisation/){: .btn .btn--primary }
-
-Additional laboratory protocols, microbiome analysis exercises and approved
-presentations will be added as they become available.
+You will need R and RStudio. The practical also uses the `ggplot2` R package; its instructions explain how to install it if needed.
 
 ## Contact
-
 
 Dr Paidamoyo Mataranyika —
 [p.mataranyika@imperial.ac.uk](mailto:p.mataranyika@imperial.ac.uk)

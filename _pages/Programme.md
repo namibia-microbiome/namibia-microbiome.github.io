@@ -41,9 +41,9 @@ any changes will be shared with participants.
 | 10:10 | Introduction to microbiome research | Hester van Schalkwyk | — |
 | 10:30 | Introduction to microbiome research | Yan Zhu | — |
 | 10:45 | Break | — | — |
-| 11:30 | Introduction to data management using R | Samraat Pawar | — |
+| 11:30 | Managing and inspecting microbiome data in R | Samraat Pawar | — |
 | 13:00 | Lunch | — | — |
-| 14:00 | Data processing in R | Samraat Pawar and Yan Zhu | — |
+| 14:00 | Exploring and visualising microbiome data in R | Samraat Pawar and Yan Zhu | — |
 | 16:00 | Field preparation | Hester van Schalkwyk and Paidamoyo Mataranyika | — |
 
 ## Thursday 29 October
@@ -64,14 +64,14 @@ any changes will be shared with participants.
 | Time | Session | Speaker or facilitator | Parallel session |
 |:--|:--|:--|:--|
 | 08:00 | Welcome coffee and networking | — | — |
-| 08:30 | Microbiome analysis practical | Samraat Pawar | PI think tank: proposal drafting |
+| 08:30 | Microbiome practical: from sequence counts to diversity | Samraat Pawar | PI think tank: proposal drafting |
 | 10:30 | Break | — | — |
-| 10:45 | Microbiome analysis practical: visualisation | Yan Zhu and Hester van Schalkwyk | — |
+| 10:45 | Microbiome practical: exploring patterns and developing hypotheses | Yan Zhu and Hester van Schalkwyk | — |
 | 13:00 | Lunch | — | — |
-| 14:00 | Data visualisation: group activity and mini-presentations | Participants | — |
-| 14:30 | PI feedback to the wider group | Thomas Bell | — |
-| 15:00 | Closing remarks | Percy Chimwamurombe | — |
-| 15:15 | Participant survey | — | — |
+| 14:00 | Group presentations: microbiome patterns and hypotheses (until 15:00) | Participants | — |
+| 15:00 | PI feedback to the wider group | Thomas Bell | — |
+| 15:30 | Closing remarks | Percy Chimwamurombe | — |
+| 15:45 | Participant survey | — | — |
 
-Workshop preparation and software information will be added to the
-[Materials page](/resources/) when available.
+For the R guide, microbiome practical and preparation instructions, see the
+[Materials page](/resources/).

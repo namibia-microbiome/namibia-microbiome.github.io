@@ -1,139 +1,32 @@
 ---
-title: "Data processing and visualisation in R"
-excerpt: "A simple, reproducible workflow for preparing, summarising and plotting data in R."
+title: "Microbiome data exploration and visualisation in R"
+excerpt: "A route through the R and microbiome analysis activities."
 permalink: /materials/data-processing-visualisation/
 layout: single
 ---
 
-This tutorial introduces a simple workflow for turning raw observations into a
-clean table, a summary and a clear figure. It assumes that you have completed
-the [R basics tutorial](/materials/r-basics/).
+Use [Exploring a soil microbiome in R](https://mulquabio.github.io/MQB/notebooks/microbiome-analysis.html) as the practical for the data management, processing and analysis sessions. The practical contains links to the data, metadata and supporting MulQuaBio sections. For R basics, use the [R introduction guide](https://docs.google.com/document/d/1FPBJ6p946MFAMDNWkASRLofh_lEbVb12/edit?usp=sharing&ouid=103851654386762616794&rtpof=true&sd=true).
 
-## Learning outcomes
+## Wednesday 28 October
 
-By the end of this tutorial, you should be able to:
+### 11:30–13:00: Managing and inspecting microbiome data in R
 
-- keep raw data separate from derived results;
-- inspect and clean a dataset without editing the raw file;
-- filter and summarise observations; and
-- create and save a clear figure with `ggplot2`.
+Set up `code/`, `data/` and `results/`, download the data and metadata, and set the practical folder as the working directory in the RStudio Console. Read the question and metadata, import and inspect the data, and discuss what each row and column represents. Start separating sample information from OTU counts, keeping the original file unchanged.
 
-## 1. Organise your project
+### 14:00–16:00: Exploring and visualising microbiome data in R
 
-A simple project structure makes an analysis easier to understand and repeat:
+Finish checking the two tables. Explore soil moisture across depth and liming categories, starting with a base R plot and then using `ggplot2`. Discuss how relationships between environmental variables can affect interpretation. Remove OTUs with no recorded sequences, calculate sequencing totals and richness, and explore their distributions. Save the analysis commands in your script.
 
-```text
-project/
-├── code/       # R scripts
-├── data/       # original data; do not edit by hand
-└── results/    # cleaned tables and figures
-```
+## Optional preparation before Friday
 
-## 2. Load and inspect the data
+If you have free time after Wednesday's sessions, finish or revisit the setup, checks and environmental plots. You can also read **From richness to diversity** in the practical and try the two-OTU example and Simpson diversity calculation. This is optional: Friday starts with a recap. Thursday's field and laboratory sessions remain as scheduled; you do not need to meet as a group during your free time.
 
-The example below uses the `iris` dataset included with R, so no download is
-needed.
+## Friday 30 October
 
-```r
-data(iris)
+In the morning, revisit any setup difficulties, then explore richness, diversity and rank-abundance plots. In the second practical session, compare richness and diversity with moisture, depth, liming and pesticide treatment; develop hypotheses and consider suitable statistical approaches. You do **not** need to perform the statistical tests.
 
-head(iris)
-dim(iris)
-names(iris)
-str(iris)
-summary(iris)
-colSums(is.na(iris))
-```
+The 12 students will work in **three groups of four**. Share and rotate coding, checking and interpretation. Each group should prepare one reproducible R script and choose two or three figures for its presentation. Present the question, patterns and variation, hypothesis, an alternative explanation, a proposed statistical approach, and the main limitations, including relationships between environmental variables and the missing sampling-design information.
 
-Before changing anything, confirm what one row represents, what each column
-means, which units are used and how missing values are recorded.
-
-## 3. Select and clean observations
-
-The following example creates a new object and leaves the original data
-unchanged.
-
-```r
-clean_data <- subset(
-  iris,
-  !is.na(Sepal.Length) & Sepal.Length > 0
-)
-
-clean_data$Species <- droplevels(clean_data$Species)
-```
-
-Use clear object and column names, keep one kind of information in each column,
-and write every cleaning step in your script.
-
-## 4. Summarise the data
-
-Install `dplyr` once with `install.packages("dplyr")`, then load it in each new
-R session.
-
-```r
-library(dplyr)
-
-species_summary <- clean_data |>
-  group_by(Species) |>
-  summarise(
-    samples = n(),
-    mean_sepal_length = mean(Sepal.Length),
-    sd_sepal_length = sd(Sepal.Length)
-  )
-
-species_summary
-```
-
-Save derived results separately from the raw data:
-
-```r
-write.csv(
-  species_summary,
-  "results/species_summary.csv",
-  row.names = FALSE
-)
-```
-
-## 5. Create a figure
-
-Install `ggplot2` once with `install.packages("ggplot2")`, then create a simple
-plot showing the distribution of observations in each group.
-
-```r
-library(ggplot2)
-
-sepal_plot <- ggplot(
-  clean_data,
-  aes(x = Species, y = Sepal.Length, colour = Species)
-) +
-  geom_jitter(width = 0.12, alpha = 0.65) +
-  geom_boxplot(width = 0.45, alpha = 0.15, outlier.shape = NA) +
-  labs(
-    x = "Species",
-    y = "Sepal length (cm)"
-  ) +
-  theme_minimal() +
-  theme(legend.position = "none")
-
-sepal_plot
-
-ggsave(
-  "results/sepal_length_by_species.png",
-  sepal_plot,
-  width = 7,
-  height = 5,
-  dpi = 300
-)
-```
-
-A useful figure should have readable labels, appropriate units and a visual
-encoding that makes the comparison clear.
-
-## Further learning
-
-For a more complete treatment of data organisation, reshaping, cleaning and
-publication-quality graphics, see the external
-[MulQuaBio: Data Management and Visualization in R](https://mulquabio.github.io/MQB/notebooks/data-r.html)
-chapter.
+The group presentation session runs **14:00–15:00**: allow each group 10 minutes to present and 5 minutes for questions, with the remaining 15 minutes for setup and shared discussion. See the [programme](/programme/) for the full schedule.
 
 [Back to workshop materials](/resources/)
